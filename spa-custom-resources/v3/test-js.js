@@ -5,7 +5,7 @@
  * "spaResources": [
     {
       "type": "js",
-      "src": "https://cdn.jsdelivr.net/gh/dev1forma/examples/spa-custom-resources/v2/test-js.js"
+      "src": "https://cdn.jsdelivr.net/gh/dev1forma/examples/spa-custom-resources/v3/test-js.js"
     }
   ]
  */
@@ -18,12 +18,10 @@
         console.log('spa init');
     });
 
-    spaEvent('auth', e => {
+    spaEvent('auth', async e => {
         console.log('auth', e);
 
-        const sessionUser = spaApi.getSessionUser();
-
-        console.log(sessionUser.data)
+       console.log( await spaApi.getSessionUser().data )
     });
 
 })();
