@@ -20,6 +20,10 @@
 
     spaEvent('auth', e => {
         console.log('auth', e);
+
+        const sessionUser = spaApi.getSessionUser();
+
+        console.log(sessionUser)
     });
 
 })();
