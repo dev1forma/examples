@@ -5,7 +5,7 @@
  * "spaResources": [
     {
       "type": "js",
-      "src": "https://cdn.jsdelivr.net/gh/dev1forma/examples/spa-custom-resources/test-js.js"
+      "src": "https://cdn.jsdelivr.net/gh/dev1forma/examples/spa-custom-resources/v1/test-js.js"
     }
   ]
  */
