@@ -23,7 +23,7 @@
 
         const sessionUser = spaApi.getSessionUser();
 
-        console.log(sessionUser)
+        console.log(sessionUser.data)
     });
 
 })();
