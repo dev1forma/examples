@@ -1,6 +1,6 @@
 (() => {
 
-    const libUrl = 'https://cdn.jsdelivr.net/gh/dev1forma/examples/spa-custom-help-widget/v3/lib.esm.js',
+    const libUrl = 'https://cdn.jsdelivr.net/gh/dev1forma/examples/spa-custom-help-widget/v3/lib.esm.3.js',
         cssUrl = 'https://cdn.jsdelivr.net/gh/dev1forma/examples/spa-custom-help-widget/v3/lib.esm.css';
 
 

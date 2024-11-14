@@ -1,6 +1,3 @@
-import "./lib.esm.css";
-
-
 function $parcel$export(e, n, v, s) {
   Object.defineProperty(e, n, {get: v, set: s, enumerable: true, configurable: true});
 }
